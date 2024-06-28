@@ -28,6 +28,12 @@ modules:
       - distrobox
       - podman
       - toolbox
+      - vim-common
+      - vim-data
+      - vim-enhanced
+      - vim-filesystem
+      - vim-minimal
+      - virtualbox-guest-additions
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
