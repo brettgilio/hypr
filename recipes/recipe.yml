@@ -29,6 +29,7 @@ modules:
       - podman
       - toolbox
       - vim-data
+      - vim-common
       - vim-minimal
 
   - type: default-flatpaks
