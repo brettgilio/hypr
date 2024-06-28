@@ -25,14 +25,9 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks
+      - distrobox
       - podman
       - toolbox
-      - distrobox
-      - thunar
-      - thunar-archive-plugin
-      - android-tools
-      - thunar-volman
-      - foot
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
